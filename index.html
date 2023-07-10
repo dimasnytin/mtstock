@@ -1,48 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="ru" data-theme="light" dir="auto">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Pixstock - A large stock library</title>
-  <meta name="title" content="Pixstock - A large stock library">
-  <meta name="description" content="This is a stock photos app made by codewithsadee">
-
-  <!-- 
-    - favicon
-  -->
+  <title>MTStock - бесплатные фото и видео</title>
+  <meta name="title" content="MTStock - бесплатные фото и видео">
+  <meta name="description" content="Это ресурс с бесплатными фото и видео">
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - theme js link
-  -->
   <script src="./js/theme.js"></script>
-
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
-
-  <!-- 
-    - material icon link
-  -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0" />
-
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./css/style.css">
-
-  <!-- 
-    - custom js link
-  -->
+  <!-- js -->
   <script src="./js/global.js" type="module"></script>
   <script src="./js/app.js" type="module"></script>
   <script src="./js/search.js" type="module"></script>
@@ -63,7 +36,7 @@
       <div class="state-layer"></div>
     </button>
 
-    <a href="/" class="logo">Pixstock</a>
+    <a href="/" class="logo">MTStock</a>
 
     <div class="search-view" data-search-view>
 
@@ -104,7 +77,7 @@
           <button class="btn-segment selected" data-ripple data-segment-btn data-segment-value="photos">
             <span class="material-symbols-outlined" aria-hidden="true">image</span>
 
-            <span class="label-large text">Photos</span>
+            <span class="label-large text">Фото</span>
 
             <div class="state-layer"></div>
           </button>
@@ -112,7 +85,7 @@
           <button class="btn-segment" data-ripple data-segment-btn data-segment-value="videos">
             <span class="material-symbols-outlined" aria-hidden="true">videocam</span>
 
-            <span class="label-large text">Videos</span>
+            <span class="label-large text">Видео</span>
 
             <div class="state-layer"></div>
           </button>
@@ -145,12 +118,6 @@
 
 
 
-
-
-  <!-- 
-    - #NAVIGATION
-  -->
-
   <nav class="navigation" data-navigation>
 
     <div class="navigation-header">
@@ -161,7 +128,7 @@
         <div class="state-layer"></div>
       </button>
 
-      <a href="/" class="logo">Pixstock</a>
+      <a href="/" class="logo">MTStock</a>
 
     </div>
 
@@ -172,7 +139,7 @@
         <a href="/" class="drawer-link active" data-drawer-link>
           <span class="material-symbols-outlined leading-icon" aria-hidden="true">home</span>
 
-          <span class="label-large">Home</span>
+          <span class="label-large">Главная</span>
 
           <div class="state-layer"></div>
         </a>
@@ -184,7 +151,7 @@
         <a href="./pages/photos/photos.html" class="drawer-link" data-drawer-link>
           <span class="material-symbols-outlined leading-icon" aria-hidden="true">image</span>
 
-          <span class="label-large">Photos</span>
+          <span class="label-large">Фото</span>
 
           <div class="state-layer"></div>
         </a>
@@ -196,7 +163,7 @@
         <a href="./pages/videos/videos.html" class="drawer-link" data-drawer-link>
           <span class="material-symbols-outlined leading-icon" aria-hidden="true">videocam</span>
 
-          <span class="label-large">Videos</span>
+          <span class="label-large">Видео</span>
 
           <div class="state-layer"></div>
         </a>
@@ -208,7 +175,7 @@
         <a href="./pages/collections/collection.html" class="drawer-link" data-drawer-link>
           <span class="material-symbols-outlined leading-icon" aria-hidden="true">auto_awesome_mosaic</span>
 
-          <span class="label-large">Collections</span>
+          <span class="label-large">Коллекция</span>
 
           <div class="state-layer"></div>
         </a>
@@ -220,7 +187,7 @@
         <a href="./pages/favorite/favorite.html" class="drawer-link" data-drawer-link>
           <span class="material-symbols-outlined leading-icon" aria-hidden="true">favorite</span>
 
-          <span class="label-large">Favorite</span>
+          <span class="label-large">Избранное</span>
 
           <div class="state-layer"></div>
         </a>
@@ -248,26 +215,25 @@
   <main class="main">
     <article>
 
-      <!-- 
-        - #BANNER
-      -->
+      <!-- баннеры -->
 
       <section class="banner" aria-label="Banner">
 
+        <!-- фото -->
         <div class="banner-card primary">
 
           <div class="card-content">
 
             <h3 class="headline-medium card-title">
-              High quality stock photos for free!
+              Бесплатные стоковые фотографии высокого качества!
             </h3>
 
             <p class="body-large card-text">
-              Explore our exceptional collection of high-quality stock photos.
+              Ознакомьтесь с исключительной коллекцией высококачественных стоковых фотографий.
             </p>
 
             <a href="./pages/photos/photos.html" class="btn btn-primary" data-ripple>
-              <span class="label-large text">Explore Now</span>
+              <span class="label-large text">Посмотреть фото</span>
 
               <div class="state-layer"></div>
             </a>
@@ -298,20 +264,21 @@
 
         </div>
 
+        <!-- видео -->
         <div class="banner-card secondary">
 
           <div class="card-content">
 
             <h3 class="headline-medium card-title">
-              Top rated stock Videos for free!
+              Бесплатные стоковые видео с самым высоким рейтингом!
             </h3>
 
             <p class="body-large card-text">
-              Our curated selection videos is sure to inspire and captivate.
+              Наши видеоролики обязательно вдохновят и очаруют.
             </p>
 
             <a href="./pages/videos/videos.html" class="btn btn-secondary" data-ripple>
-              <span class="label-large text">Explore Now</span>
+              <span class="label-large text">Посмотреть видео</span>
 
               <div class="state-layer"></div>
             </a>
@@ -360,20 +327,21 @@
 
         </div>
 
+        <!-- коллекции медиа -->
         <div class="banner-card tertiary">
 
           <div class="card-content">
 
             <h3 class="headline-medium card-title">
-              Best collections with best medias!
+              Лучшие коллекции с лучшими медиа!
             </h3>
 
             <p class="body-large card-text">
-              Discover a treasure trove of stunning images, captivating videos.
+              Откройте для себя сокровищницу потрясающих изображений и захватывающих видео.
             </p>
 
             <a href="./pages/collections/collection.html" class="btn btn-tertiary" data-ripple>
-              <span class="label-large text">Explore Now</span>
+              <span class="label-large text">Посмотреть коллекции</span>
 
               <div class="state-layer"></div>
             </a>
@@ -422,9 +390,7 @@
 
 
 
-      <!-- 
-        - #FEATURED PHOTOS
-      -->
+      <!-- блок картинок -->
 
       <section class="section featured-photo" aria-labelledby="featured-label">
         <div class="container">
